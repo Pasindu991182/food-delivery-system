@@ -1,0 +1,89 @@
+/* CSS for Placeorder Component */
+.place-order {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .place-order-left {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .multi-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #999;
+    outline: none;
+  }
+  
+  .multi-fields input {
+    width: 48%;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .place-order {
+      flex-direction: column;
+    }
+  
+    .multi-fields {
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .multi-fields input {
+      width: 100%;
+    }
+  }
+/* CSS for the 'PROCEED TO PAYMENT' button */
+.payment {
+    display: block;
+    width: max(15vw, 200px);
+    padding: 12px 0;
+    margin: 20px auto;
+    border: none;
+    color: whitesmoke;
+    background-color: chocolate;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .payment:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+  }
+  
+  .payment:active {
+    background-color: sienna;
+    transform: scale(0.98);
+  }
+    
