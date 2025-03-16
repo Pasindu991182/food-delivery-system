@@ -18,23 +18,22 @@ const Footer = () => {
             <div className="footer-content-center">
                 <h2>COMPANY</h2>
                 <ul>
-                    <li>Home</li>
                     <li>About us</li>
                     <li>Delivery</li>
                     <li>Privacy policy</li>
+                    <li>Terms @ Conditions</li> 
                 </ul>
             </div>
             <div className="footer-content-right">
                 <h2>GET IN TOUCH</h2>
                 <ul>
-                    <l1>071-9366028</l1>
-                    <li>IT22371522@my.sliit.lk</li>
-                    <button>Inquiry us</button>
+                    <l1>041-9366028</l1>
+                    <li>Info@mercifrench.com</li>
                 </ul>
             </div>
         </div>
         <hr />
-        <p className="footer-copyright">Copyright 2024 PASINDU IROSHAN - All Right reserved</p>
+        <p className="footer-copyright">Copyright 2024 MERCI FRENCH - All Right reserved</p>
     </div>
   );
 }

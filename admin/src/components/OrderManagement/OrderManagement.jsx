@@ -64,10 +64,11 @@ const OrderManagement = () => {
     }
   };
 
+  //fetchorders
   const fetchOrders = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`${baseUrl}/api/order/list`);
+      const response = await axios.get(`${baseUrl}/api/order/list`); 
       setOrders(response.data.data);
     } catch (error) {
       console.error("Error fetching orders:", error);
